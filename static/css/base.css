@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage.jpg') no-repeat center center fixed;
+    background: url('/media/gradienta-bubbles.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -21,6 +21,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: #09382c;
 }
 
 .main-logo-link {
@@ -28,14 +29,25 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #00a499;
+    background-color: #fff;
+    border-width: 2px;
+    border-color: #00a499;
+    box-shadow: 8px 8px 0 0 #00a499;
+    min-width: 200px;
+    height: 60px;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+.btn {
+    align-items: center;
+    color: #00a499;
+    background-color: #fff;
+    border-width: 2px;
+
+    box-shadow: 8px 8px 0 0 #00a499;
+
 }
 
 .shop-now-button:hover,
@@ -44,21 +56,14 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: #d3f1e8;
+    color:#00a499;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #09382c !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #000 !important;
-}
 
 /* -------------------------------- Media Queries */
 
