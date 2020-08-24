@@ -118,3 +118,18 @@ body {
         padding-top: 2rem;
     }
 }
+
+
+/* Products page */
+.container-fluid-products {
+    margin-top: 200px;
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
