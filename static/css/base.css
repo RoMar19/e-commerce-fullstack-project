@@ -19,6 +19,10 @@ body {
     width: 1.5rem;
 }
 
+.fas {
+    color:#00a499;
+}
+
 .logo-font {
     text-transform: uppercase;
     color: #09382c;
@@ -64,6 +68,32 @@ body {
     color: #09382c !important;
 }
 
+.col-7 {
+     max-width: 800px;
+     margin-top: 50px;
+     padding: 200px;
+}
+
+#banner {
+    background-color:#d3f1e8;
+    color: #09382c;
+    font-size: 75%; 
+    border-bottom-style: solid;
+}
+
+.col-md {
+  display: table-cell;
+}
+
+.banner-info {
+    padding-top: 16px; 
+}
+    
+
+.footer {
+
+}
+
 
 /* -------------------------------- Media Queries */
 
@@ -85,6 +115,6 @@ body {
     }
 
     .header-container {
-        padding-top: 184px;
+        padding-top: 2rem;
     }
 }

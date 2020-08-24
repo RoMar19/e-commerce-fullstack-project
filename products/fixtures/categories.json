@@ -1,0 +1,74 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "growbeds_pots",
+      "friendly_name": "Growbeds & Pots"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "grow_media",
+      "friendly_name": "Groe Media"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "plumbing",
+      "friendly_name": "Plumbing"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "electronics_grow_ligths",
+      "friendly_name": "Electronics & Grow Lights"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "seeds",
+      "friendly_name": "Seeds"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "baby_plants",
+      "friendly_name": "Baby Plants"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "fish_tanks",
+      "friendly_name": "Fish Tanks"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "fish_food",
+      "friendly_name": "Fish Food"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+      "name": "aquarium_accesories",
+      "friendly_name": "Aquarium Accesories"
+    }
+  }
+]

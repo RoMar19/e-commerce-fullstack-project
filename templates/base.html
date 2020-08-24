@@ -40,7 +40,24 @@
     
     <body>
         <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+        <div id="banner" class="row text-center">
+            <div class="col-md">
+                <p Class="info my-1" style="color:#ff9e1b"><strong>Due Covid Pandemic deliveries could be delayed!!!</strong></p> 
+            </div>
+            <div class="col-md">
+                <h6 class="banner-info">Contact Us</h6>     
+            </div>
+            <div class="col-md">
+                <h6 class="banner-info">Picking Points</h6>      
+            </div>    
+            <div class="col-md">
+                <h6 class="banner-info">Events</h6>      
+            </div>    
+            <div class="col-md">
+                <h6 class="logo-font my-1" font-size="75%">Free delivery on orders over &euro;{{ free_shipping_threshold }}!</h6>             
+            </div>            
+        </div>
+        <div id="topnav" class="row bg-white pt-lg-5 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0">Aquaponics Shop</h2>
@@ -52,7 +69,7 @@
                         <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search products">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                                <span class="icon" style="color: #00a499">
+                                <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
                             </button>
@@ -65,7 +82,7 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user-circle fa-lg" style="color: #00a499"></i></div>
+                                <div><i class="fas fa-user-circle fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
@@ -85,7 +102,7 @@
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-cart fa-lg" style="color: #00a499"></i></div>
+                                <div><i class="fas fa-shopping-cart fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
@@ -125,3 +142,53 @@
 
     </body>
 </html>
+
+<!-- Events 
+<div class="container-events">
+    <div class="row">
+        <div class="col">
+            <div class="aligncenter">
+                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
+                    <a href="https://eco-nature.cmsmasters.net/recycling/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/01-2-o1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="aligncenter">
+                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
+                    <a href="https://eco-nature.cmsmasters.net/ecosystem/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/02-2-o.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="aligncenter">
+                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
+                    <a href="https://eco-nature.cmsmasters.net/organic/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/03-2-o.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="aligncenter">
+                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
+                    <a href="https://eco-nature.cmsmasters.net/biology/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/04-2-o1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+-->
+
+<!-- Footer 
+<div class="footer">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>
+
+-->
