@@ -120,7 +120,7 @@ body {
 }
 
 
-/* Products page */
+/* Products, product_detail page */
 .container-fluid-products {
     margin-top: 250px;
 }
@@ -132,4 +132,9 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
