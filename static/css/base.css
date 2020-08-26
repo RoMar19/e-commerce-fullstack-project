@@ -10,17 +10,13 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-/* from Bulma */
-.icon {
+.fas {
+    color:#00a499;
     align-items: center;
     display: inline-flex;
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
-}
-
-.fas {
-    color:#00a499;
 }
 
 .logo-font {
@@ -49,9 +45,7 @@ body {
     color: #00a499;
     background-color: #fff;
     border-width: 2px;
-
     box-shadow: 8px 8px 0 0 #00a499;
-
 }
 
 .shop-now-button:hover,
@@ -134,7 +128,37 @@ body {
 	z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
+.category-badge {
+    align-items: center;
+    padding: 10px;
 }
+
+a.category-badge > span.badge:hover {
+    background: #d3f1e8;
+    color:#00a499;
+    box-shadow: 5px 5px 0 0 #00a499;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-button :hover {
+    background-color: #d3f1e8;
+}
+
+.btt-link :hover {
+    cursor: pointer;
+}
+
+.fas.fa-arrow-circle-up {
+    padding-top:5px;
+    padding-left: 5px;
+}
+
+
+

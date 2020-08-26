@@ -13,15 +13,15 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="basis-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="basics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Basics
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="basis-link">
-                <a href="{% url 'products' %}?category=growbeds,pots" class="dropdown-item">Growbeds &amp; Pots</a>
-                <a href="{% url 'products' %}?category=grow_media" class="dropdown-item">Grow Media</a>
+            <div class="dropdown-menu border-0" aria-labelledby="basics-link">
+                <a href="{% url 'products' %}?category=growbeds_pots" class="dropdown-item">Growbeds &amp; Pots</a>
                 <a href="{% url 'products' %}?category=plumbing" class="dropdown-item">Plumbing</a>
-                <a href="{% url 'products' %}?category=electronics,grow_ligths" class="dropdown-item">Electronics &amp; Grow Lights</a>
-                <a href="{% url 'products' %}?category=growbeds,pots,grow_media,plumbing,electronics,grow_lights" class="dropdown-item">All Basics</a>
+                <a href="{% url 'products' %}?category=electronics_lighting" class="dropdown-item">Electronics &amp; Lighting </a>
+                <a href="{% url 'products' %}?category=substrates" class="dropdown-item">Substrates</a>
+                <a href="{% url 'products' %}?category=growbeds_pots,plumbing,electronics_ligthing,substrates" class="dropdown-item">All Basics</a>
             </div>
         </li>
 
@@ -38,13 +38,13 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="fish-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+                Fish Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="fish-link">
                 <a href="{% url 'products' %}?category=fish_tanks" class="dropdown-item">Fish Tanks</a>
                 <a href="{% url 'products' %}?category=fish_food" class="dropdown-item">Fish Food</a>
                 <a href="{% url 'products' %}?category=aquarium_accesories" class="dropdown-item">Aquarium Accesories</a>
-                <a href="{% url 'products' %}?category=fish_tanks,fish_food,aquarium_accesories" class="dropdown-item">All Fish</a>
+                <a href="{% url 'products' %}?category=fish_tanks,fish_food,aquarium_accesories" class="dropdown-item">All Fish Products</a>
             </div>
         </li>
     </ul>
