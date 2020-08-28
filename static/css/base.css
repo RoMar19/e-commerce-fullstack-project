@@ -59,6 +59,10 @@ body {
     color: #09382c !important;
 }
 
+.text-info {
+    color: #00a499 !important;
+}
+
 .col-7 {
      max-width: 800px;
      margin-top: 50px;
@@ -79,6 +83,11 @@ body {
 .banner-info {
     padding-top: 16px; 
 }
+
+a.video {
+    text-decoration: none !important;
+    color: #fff;
+}
     
 
 .footer {
@@ -92,6 +101,10 @@ body {
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
+  }
+
+  .product-detail-container {
+      margin-left: 50px;
   }
 }
 
