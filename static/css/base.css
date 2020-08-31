@@ -22,6 +22,7 @@ body {
 .logo-font {
     text-transform: uppercase;
     color: #09382c;
+    font-weight: 900;
 }
 
 .main-logo-link {
@@ -127,6 +128,7 @@ a.video {
 
 
 /* Products, product_detail page */
+
 .container-fluid-products {
     margin-top: 250px;
 }
