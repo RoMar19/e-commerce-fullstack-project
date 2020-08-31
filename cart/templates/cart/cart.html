@@ -74,10 +74,6 @@
                                         <a class="update-link text-info"><i class="fa fa-refresh fa-sm" aria-hidden="true"></i><small> Update</small></a>
                                         <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><i class="fas fa-trash-alt fa-sm"></i><small>Remove</small></a>
                                     </td>
-                                    <td class="py-3">
-                                        <p class="my-0">&euro;{{ item.product.price | calc_subtotal:item.quantity }}</p>
-                                    </td>
-                                </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
