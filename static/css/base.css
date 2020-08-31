@@ -63,7 +63,7 @@ body {
     color: #00a499 !important;
 }
 
-.col-7 {
+.col-7.col-md-6 mx-auto{
      max-width: 800px;
      margin-top: 50px;
      padding: 200px;
