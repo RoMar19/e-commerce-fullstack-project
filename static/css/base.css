@@ -64,6 +64,10 @@ body {
     color: #00a499 !important;
 }
 
+.text-danger {
+    color: #c35817 !important;
+}
+
 .col-7.col-md-6 mx-auto{
      max-width: 800px;
      margin-top: 50px;
@@ -89,14 +93,6 @@ a.video {
     text-decoration: none !important;
     color: #fff;
 }
-    
-
-.footer {
-
-}
-
-
-
 
 /* Media Queries */
 

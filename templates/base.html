@@ -42,19 +42,13 @@
     
     <body>
         <header class="container-fluid fixed-top">
-        <div id="banner" class="row text-center hidden-sm">
+        <div id="banner" class="row text-center pt-2">
             <div class="col-md">
-                <p class="info my-1" style="color:#ff9e1b"><strong>Due Covid Pandemic deliveries could be delayed!!!</strong></p> 
-            </div>
-            <div class="col-md">
-                <h6 class="banner-info">Contact Us</h6>     
+                <p class="info my-1 text-danger"><strong>Due Covid Pandemic deliveries could be delayed!!!</strong></p> 
             </div>
             <div class="col-md">
                 <h6 class="banner-info">Picking Points</h6>      
-            </div>    
-            <div class="col-md">
-                <h6 class="banner-info">Events</h6>      
-            </div>    
+            </div>      
             <div class="col-md">
                 <h6 class="logo-font my-1" font-size="75%">Free delivery on orders over &euro;{{ free_delivery_threshold }}!</h6>             
             </div>            
@@ -81,6 +75,14 @@
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    <li class="list-inline-item dropdown">
+                        <a class="text-black nav-link" href="{% url 'home' %}" id="contact_us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-address-card fa-lg"></i></div>
+                                <p class="my-0">Contact Us</p>              
+                            </div>
+                        </a>
+                    </li>
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
@@ -161,53 +163,3 @@
 
     </body>
 </html>
-
-<!-- Events 
-<div class="container-events">
-    <div class="row">
-        <div class="col">
-            <div class="aligncenter">
-                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
-                    <a href="https://eco-nature.cmsmasters.net/recycling/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/01-2-o1.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="aligncenter">
-                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
-                    <a href="https://eco-nature.cmsmasters.net/ecosystem/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/02-2-o.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="aligncenter">
-                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
-                    <a href="https://eco-nature.cmsmasters.net/organic/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/03-2-o.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="aligncenter">
-                <div class="cmsms_img  cmsms_image_c fadeInUp animated" data-animation="fadeInUp" data-delay="300">
-                    <a href="https://eco-nature.cmsmasters.net/biology/"><img src="https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/04-2-o1.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div> 
-</div>
-
--->
-
-<!-- Footer 
-<div class="footer">
-    <div class="row">
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-    </div>
-</div>
-
--->
