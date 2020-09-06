@@ -1,1 +1,1 @@
-echo web: gunicorn ms4.wsgi:application
+web: gunicorn aquaponic-shop.wsgi:application
