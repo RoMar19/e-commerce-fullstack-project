@@ -50,21 +50,3 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
-
-    
-def base64_decode(s):
-    """Add missing padding to string and return the decoded base64 string."""
-    log = logging.getLogger()
-    s = str(s).strip()
-    try:
-        return base64.b64decode(s)
-    except TypeError:
-        padding = len(s) % 4
-        if padding == 1:
-            log.error("Invalid base64 string: {}".format(s))
-            return ''
-        elif padding == 2:
-            s += b'=='
-        elif padding == 3:
-            s += b'='
-        return base64.b64decode(s)
