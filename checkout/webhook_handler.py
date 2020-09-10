@@ -35,7 +35,6 @@ class StripeWH_Handler:
             [cust_email]
         )
 
-
     def _send_confirmation_email(self, order):
         """Send the user a confirmation email"""
         cust_email = order.email
@@ -51,7 +50,7 @@ class StripeWH_Handler:
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        ) 
+        )
 
     def handle_event(self, event):
         """
