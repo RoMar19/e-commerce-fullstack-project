@@ -71,22 +71,22 @@
                             {% for item in cart_items %}
                                 <tr>
                                     <td class="p-3 w-25">
-                                        {% include "bag/product-image.html" %}
+                                        {% include "cart/product-image.html" %}
                                     </td>
                                     <td class="py-3">
-                                        {% include "bag/product-info.html" %}
+                                        {% include "cart/product-info.html" %}
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">&euro;{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
-                                         {% include "bag/quantity-form.html" %}
+                                         {% include "cart/quantity-form.html" %}
                                     </td>
                             {% endfor %}
                             </tr>
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                     {% include "bag/bag-total.html" %}
+                                     {% include "cart/cart-total.html" %}
                                 </td>
                             </tr>
                             <tr>
