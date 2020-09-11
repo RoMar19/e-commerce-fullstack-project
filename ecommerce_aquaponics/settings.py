@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'aquaponics-shop.urls'
+ROOT_URLCONF = 'ecommerce_aquaponics.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
