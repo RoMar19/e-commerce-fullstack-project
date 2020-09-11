@@ -1,1 +1,1 @@
-web: gunicorn aquaponics-shop.wsgi
+web: gunicorn ecommerce_aquaponics.wsgi:application
