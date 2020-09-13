@@ -35,17 +35,17 @@
                         {% for item in cart_items %}
                             <div class="row">
                                 <div class="col-12 col-sm-6 mb-2">
-                                    {% include "cart/product-image.html" %}
+                                    {% include "cart/product_image.html" %}
                                 </div>
                                 <div class="col-12 col-sm-6 mb-2">
-                                    {% include "cart/product-info.html" %}
+                                    {% include "cart/product_info.html" %}
                                 </div>
                                 <div class="col-12 col-sm-6 order-sm-last">
                                     <p class="my-0">Price Each: &euro;{{ item.product.price }}</p>
                                     <p><strong>Subtotal: </strong>&euro;{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    {% include "cart/quantity-form.html" %}
+                                    {% include "cart/quantity_form.html" %}
                                 </div>
                             </div>
                             <div class="row"><div class="col"><hr></div></div>
@@ -71,22 +71,22 @@
                             {% for item in cart_items %}
                                 <tr>
                                     <td class="p-3 w-25">
-                                        {% include "cart/product-image.html" %}
+                                        {% include "cart/product_image.html" %}
                                     </td>
                                     <td class="py-3">
-                                        {% include "cart/product-info.html" %}
+                                        {% include "cart/product_info.html" %}
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">&euro;{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
-                                         {% include "cart/quantity-form.html" %}
+                                         {% include "cart/quantity_form.html" %}
                                     </td>
                             {% endfor %}
                             </tr>
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                     {% include "cart/cart-total.html" %}
+                                     {% include "cart/cart_total.html" %}
                                 </td>
                             </tr>
                             <tr>
