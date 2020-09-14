@@ -64,20 +64,22 @@ Or continue shopping button option.
 * As an admin I don't want a user to be able to checkout an empty cart 
 * As a admin I do not want a user can manage products.
 
-## Design and colors:
-### Fonts:
+## Design and colors
+### Fonts
 I used Noto Sans, from Google Fonts.
 Sans-serif is used as the default backup font in case when Nunito Sans was not possible to load.
 
-### Colors:
+### Colors
 #00A499 #09382C - Font colors.
 
 #F2F4F5 #F2F4F5 - Background color, icons and , buttons shadow.
 
-### Media:
+### Mockups
+
+### Media
 Background image from Unsplash.com and for some products image used as well. Rest of the images are from my own Aquaponics sytems or projects where I have participated. 
 
-## Technology Used:
+## Technology Used
 Required: HTML, CSS, JavaScript, Python, Django, Postgres, Stripe payments ans AWS storage service.
 
 
@@ -87,7 +89,7 @@ Required: HTML, CSS, JavaScript, Python, Django, Postgres, Stripe payments ans A
 * JavaScript
 * Python 3.8
 
-### Libraries, frameworks, tools used
+### Libraries, frameworks, tools used:
 * Bootstrap 4 framework was used for developing a responsive, mobile-first website
 * Django 3.1 as python web framework used for rapid development, maintainable, clean design
 * jQuery JavaScript library to simplify HTML DOM manipulation
@@ -110,7 +112,7 @@ Required: HTML, CSS, JavaScript, Python, Django, Postgres, Stripe payments ans A
 * AWS S3 Bucket as a cloud storage
 * Boto3 to make use of Amazon S3
 * Pillow for saving image file formats
-### Databases
+### Databases:
 * PostgreSQL database service provided directly by Heroku
 * SQlite3 provided by django
 
@@ -118,17 +120,44 @@ Required: HTML, CSS, JavaScript, Python, Django, Postgres, Stripe payments ans A
 ## Testing
 During the development of the project I carried out testing, I used Google Chrome Developer Tools consistently to check each changes.
 I have tested the site on Google Chrome, Safari and Firefox. And on the following mobile devices: Samsung S20 and on iPad tablet.
-* Home page
-* Navigation
-* Products
-* Products Sort by:
-* Product detail + Add product to cart
-* Checkout Form and payment using card numbers:
+
+* Home page:
+ Click on button **Shop Now**, goes to Product page, shows All Products, OK.
+ Click on **Video**, goes to YouTube video, OK.
+
+
+* Navigation:
+Click on "logo": **Aquaponics Shop**, goes to home page. OK
+Search by keyword, trying **search** "tray", goes to products including "Tray" on description or name. OK
+Click on **My Account**, opens **My Profile**, **Logout**, **Register** and **Login**. All links work. OK
+Click on **Cart**, opens products in Cart. If not products added to the cart, opens page to clik on "Kepp Shopping". OK
+Click on **All Products** opens sear by: Price, Rating, Categotry. Click on each and all of them make a correct selection of products base on criteria. OK
+Click on **Basics** opens different products: Growbeds&Pots, Plumbing, Electronics & Grow Lights, Grow Medium and All basics. Shows correct selection in all options. OK
+Click on **Seeds & Plants** opens different products: Seeds, Baby Plants, All Seeds & Baby Plants. Shows correct selection in all options. OK
+Click on **Fish Products** opens different products: Fish tanks, Fish Food, Aquarium accessories and All Fish Products. Shows correct selection in all options. OK
+Number of products found visible in all categories, OK.
+Click on **Sorting by**: Price (low to high), Price (high to low), Rating (low to high) or (high to low) , Name (A-Z) or (Z-A), Category (A-Z) or (Z-A). Working Ok.
+
+* **All Products**, shows all products (24 found). OK Including: Image, description, price, rating and category.
+* Click on any product, opens **Product detail** to view more details about the product and option to **Add product** to cart or update quantity. OK.
+  Click on **Keep Shoping** goes to All products. OK
+* Click on Cart opens **Shoping Cart** to view what we will buy, delivery cost included (10%) and if it is more than 60 Euros free. OK 
+  Possible to remove product or update quantity. OK
+  Click on Keep Shopping goes to All Products. OK
+  Click on **Secure Checkout** goes to:
+* **Checkout Form** mandatory to fill in all details, if not meessage info. OK
+  Checkbox to save profile from order working OK. 
+  Click on **Update Cart** goes back to Shopping Cart.
+  Click on **Complete Order** goes to checkout_success page, with Order Confirmnation and email send to the user. OK
+  Click on **Continue Shopping** goes to All Products. OK
+  Payment tested using card numbers:
     No authentication (default U.S. card): 4242 4242 4242 4242.
     Authentication required: 4000 0027 6000 3184.
-* Profile, order history, email confirmation.
-* Register, Login and Logout
-* Email received with order confirmation and delivery info
+* **My Profile**, opens order/delivery history. OK
+  Click on **Update information** to change profile records. OK
+* Register, Login and Logout. OK
+* Email received with order confirmation and delivery info. OK
+Alerts about different functions added and work properly. OK 
 
 ### Code Validation
 CSS was validated using W3C CSS Validation Service - Jigsaw
@@ -157,6 +186,7 @@ Steps to deploy to Heroku:
 11.	Create a super user: python3 manage.py createsuperuser.User name added, emaill and password.
 12.	Install unicorn typing: pip3 install gnicorn in the Terminal to act as webserver and freeze that into our requirements file typing: pip3 freeze > requirements.txt.
 13.	Create Procfile using command: echo web: gunicorn ms4.wsgi:application.
+14. Git add ., git commit and git push.
 
 To connect AWS: 
 1.	Log in to Amazon AWS, went to S3 and created a new S3 bucket (aquaponics-shop)
@@ -186,8 +216,9 @@ To connect AWS:
 
 ![Heroku Config Var](/media/HerokuConfigVar.PNG)
 
-
-8.	Clicked to Deploy, then GitHub, searched for my repository and clicked to Connect button.
+8. Git push heroku master to finish and deploy to Heroku.
+9. Clicked to Deploy tab, then GitHub, searched for my repository and clicked to Connect button.
+Heroku will be updated automatically from Github repository.
 
 ## Credits 
 

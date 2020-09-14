@@ -29,6 +29,14 @@ body {
     width: fit-content;
 }
 
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
 .shop-now-button {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -83,10 +91,6 @@ body {
 
 .col-md {
   display: table-cell;
-}
-
-.banner-info {
-    padding-top: 16px; 
 }
 
 a.video {
