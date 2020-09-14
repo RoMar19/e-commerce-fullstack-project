@@ -19,6 +19,7 @@ def add_to_cart(request, item_id):
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
+    """ Only if product with size """
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     cart = request.session.get('cart', {})
@@ -54,12 +55,44 @@ def add_to_cart(request, item_id):
     request.session['cart'] = cart
     return redirect(redirect_url)
 
+
 def update_cart(request, item_id):
-    """Update the quantity of the specified product to the specified amount"""
+    """Adjust the quantity of the specified product to the specified amount"""
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
+    size = None 
+    """ Only if product with size """
+
+    if 'product_size' in request.POST:
+        size = request.POST['product_size']
     cart = request.session.get('cart', {})
+
+    if size:
+        if quantity > 0:
+            cart[item_id]['items_by_size'][size] = quantity
+            messages.success(request,
+                             (f'Updated size {size.upper()} '
+                              f'{product.name} quantity to '
+                              f'{cart[item_id]["items_by_size"][size]}'))
+        else:
+            del cart[item_id]['items_by_size'][size]
+            if not cart[item_id]['items_by_size']:
+                cart.pop(item_id)
+            messages.success(request,
+                             (f'Removed size {size.upper()} '
+                              f'{product.name} from your cart'))
+    else:
+        if quantity > 0:
+            cart[item_id] = quantity
+            messages.success(request,
+                             (f'Updated {product.name} '
+                              f'quantity to {cart[item_id]}'))
+        else:
+            cart.pop(item_id)
+            messages.success(request,
+                             (f'Removed {product.name} '
+                              f'from your cart'))
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
@@ -70,11 +103,21 @@ def remove_from_cart(request, item_id):
 
     try:
         product = get_object_or_404(Product, pk=item_id)
+        size = None
+        if 'product_size' in request.POST:
+            size = request.POST['product_size']
         cart = request.session.get('cart', {})
 
-        if not cart[item_id]:
+        if size:
+            del cart[item_id]['items_by_size'][size]
+            if not cart[item_id]['items_by_size']:
+                cart.pop(item_id)
+            messages.success(request,
+                             (f'Removed size {size.upper()} '
+                              f'{product.name} from your cart'))
+        else:
             cart.pop(item_id)
-        messages.success(request, f'Removed {product.name} from your cart')
+            messages.success(request, f'Removed {product.name} from your cart')
 
         request.session['cart'] = cart
         return HttpResponse(status=200)

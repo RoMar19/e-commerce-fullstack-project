@@ -60,8 +60,8 @@ Or continue shopping button option.
 * As a user I would like to be able to register on the site.
 
 ### Admin stories:
-* As an admin I would like to be able to login to an administration panel to manage products or orders from users.
-* As an admin I don't want a user to be able to checkout an empty cart 
+* As an admin I would like to be able to login to an administration panel to manage products or orders from users. Only allowed with superuser.
+* As an admin I don't want a user to be able to checkout an empty cart .
 * As a admin I do not want a user can manage products.
 
 ## Design and colors
@@ -157,7 +157,7 @@ Click on **Sorting by**: Price (low to high), Price (high to low), Rating (low t
   Click on **Update information** to change profile records. OK
 * Register, Login and Logout. OK
 * Email received with order confirmation and delivery info. OK
-Alerts about different functions added and work properly. OK 
+Pop up Alerts about different functions (suscess, info, error, alerts...) added and work properly. OK 
 
 ### Code Validation
 CSS was validated using W3C CSS Validation Service - Jigsaw
