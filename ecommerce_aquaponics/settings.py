@@ -62,8 +62,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'ecommerce_aquaponics.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-TEMPLATES = [
+EMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
@@ -74,7 +73,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',
+                'django.template.context_processors.request',  # Required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -97,6 +96,7 @@ AUTHENTICATION_BACKENDS = (
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 )
+
 
 SITE_ID = 1
 
