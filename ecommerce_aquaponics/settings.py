@@ -62,7 +62,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'ecommerce_aquaponics.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-EMPLATES = [
+TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
