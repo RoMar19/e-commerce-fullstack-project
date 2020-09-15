@@ -25,8 +25,11 @@ Product can be sort by: Category, Price, Rating (base on owner opinion) and Name
 You can view the product detail, with description and rest of product info. 
 Update quantity and "Add to cart" button available to add products to cart or continue shopping to go to all product page.
 
-### Login / Register page
-Login page with option to register if someone is not a member yet.
+### Login / Register page / Logout
+Login page with option to register if someone is not a member yet, login and  logout.
+
+## Product Management
+Admin and superuser allowed to add, edit or delete products.
 
 ### Profile page
 If the user is logged in there is a Profile page, where the user can check their order history.
@@ -60,7 +63,7 @@ Or continue shopping button option.
 * As a user I would like to be able to register on the site.
 
 ### Admin stories:
-* As an admin I would like to be able to login to an administration panel to manage products or orders from users. Only allowed with superuser.
+* As an admin I would like to be able to login to an administration panel to manage products or orders from users. Only allowed with superuser or shop owner.
 * As an admin I don't want a user to be able to checkout an empty cart .
 * As a admin I do not want a user can manage products.
 
@@ -73,8 +76,6 @@ Sans-serif is used as the default backup font in case when Nunito Sans was not p
 #00A499 #09382C - Font colors.
 
 #F2F4F5 #F2F4F5 - Background color, icons and , buttons shadow.
-
-### Mockups
 
 ### Media
 Background image from Unsplash.com and for some products image used as well. Rest of the images are from my own Aquaponics sytems or projects where I have participated. 
@@ -155,7 +156,7 @@ Click on **Sorting by**: Price (low to high), Price (high to low), Rating (low t
     Authentication required: 4000 0027 6000 3184.
 * **My Profile**, opens order/delivery history. OK
   Click on **Update information** to change profile records. OK
-* Register, Login and Logout. OK
+* Register, Login and Logout. Working with deficences, only signout/logout works properly. Register and Login not working.
 * Email received with order confirmation and delivery info. OK
 Pop up Alerts about different functions (suscess, info, error, alerts...) added and work properly. OK 
 
