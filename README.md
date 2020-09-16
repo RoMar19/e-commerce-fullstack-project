@@ -161,7 +161,7 @@ Click on **Sorting by**: Price (low to high), Price (high to low), Rating (low t
 Pop up Alerts about different functions (suscess, info, error, alerts...) added and work properly. OK 
 
 ### Code Validation
-CSS was validated using W3C CSS Validation Service - Jigsaw
+CSS was validated using W3C CSS Validation Service.
 
 HTML was validated using W3C Markup Validation Service.
 
@@ -175,13 +175,13 @@ Warning messages were used when user entered already taken username at registrat
 
 Steps to deploy to Heroku:
 1.	Heroku .com click on New and Create new app.
-2.	Named as: Aquaponic-shop. Region selected: Europe.
+2.	Named as: Aquaponics-shop. Region selected: Europe.
 3.	In Resources tab , search and add Heroku Postgres. Select Hobby Dev (free)and click Provision.
-4.	In Settings click on Reveal Config Vars, and copied the value of DATABASE_URL.
-5.	Back to Gitpod. In the Terminal install dj_data_base_url and psycopg2-bunary, typing: pip3 install psycopg2-binary and pip3 install dj_database_url.
+4.	In Settings click on Reveal Config Vars, and copied the value of DATABASE_URL in Gitpot setting.
+5.	Back to Gitpod in the Terminal install dj_data_base_url and psycopg2-bunary, typing: pip3 install psycopg2-binary and pip3 install dj_database_url.
 6.	Created a requirements.txt file using the terminal command pip3 freeze > requirements.txt. Make sure Heroku installs all our apps requirements checking requirements.txt file.
 7.	Go to settings.py and add import dj_database_url and update DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))} in the database settings.
-8.	Env.py update, os.environ.setdefault("DATABASE_URL", "postgres://postgres key - copiep from Heroku").
+8.	Env.py update, os.environ.setdefault("DATABASE_URL", "postgres://postgres key -  from Heroku").
 9.	Migrate all changes to Postgres database typing: python3 manage.py makemigrations and then python3 manage.py migrate.
 10.	In the Terminal, to load data categories use python3 manage.py loaddata categories.
 11.	Create a super user: python3 manage.py createsuperuser.User name added, emaill and password.
