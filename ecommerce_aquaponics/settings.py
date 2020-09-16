@@ -115,17 +115,10 @@ WSGI_APPLICATION = 'ecommerce_aquaponics.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        'default': 'postgres://fsftduzzxosjka:221d85337a47d150c1340823b84a428df35aa3059a99da785cd145ac7fba03ad@ec2-54-247-169-129.eu-west-1.compute.amazonaws.com:5432/dddcfov56imk5g'
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
