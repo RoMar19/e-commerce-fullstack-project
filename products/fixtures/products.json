@@ -7,7 +7,7 @@
       "name": "Amarant Seeds",
       "description": "Organic 100%. 180gr. Amarant seeds.",
       "price": 2.1,
-      "category": 6,
+      "category": 5,
       "rating": 4.6,
       "image_url": "",
       "image": "Amarant seeds_opt.jpg"
@@ -21,7 +21,7 @@
       "name": "Aquarium Indoor",
       "description": "Glass Aquarium perfect for your Fish, for Aquaponics and decoration pourposes. 80x50x40 cm.",
       "price": 180.5,
-      "category": 4,
+      "category": 7,
       "rating": 4.6,
       "image_url": "",
       "image": "Aquarium - Copy_opt (1).jpg"
@@ -35,7 +35,7 @@
       "name": "Full Aquaponics System",
       "description": "Completed Aquaponics system for indoor and small space. Growbeds, Aquaium and LED lights incuded. Grow Medium and Plants not included",
       "price": 1680,
-      "category": 2,
+      "category": 1,
       "rating": 4.9,
       "image_url": "",
       "image": "Aquarium - Copy_opt.jpg"
@@ -49,7 +49,7 @@
       "name": "Round seeding tray",
       "description": "Seeding tray round hooks for 144 baby plants. 30x50x30",
       "price": 28.9,
-      "category": 7,
+      "category": 1,
       "rating": 3,
       "image_url": "",
       "image": "baby-plants_opt.jpg"
@@ -63,7 +63,7 @@
       "name": "Biostrate",
       "description": "Organic vegetal fiber as starter seeds or to grow Micro Greens. 100x50 cm.",
       "price": 15.1,
-      "category": 6,
+      "category": 2,
       "rating": 4.6,
       "image_url": "",
       "image": "Biostrate_opt.jpg"
@@ -77,7 +77,7 @@
       "name": "Chart Baby Plant",
       "description": "Set of 6 Chart sprouts ready to plant in your system. 2 Weeks old.",
       "price": 1.9,
-      "category": 4,
+      "category": 6,
       "rating": 4.6,
       "image_url": "",
       "image": "charts_opt.jpg"
@@ -91,7 +91,7 @@
       "name": "Full Aquaponics System",
       "description": "Completed Aquaponics system for indoor perfect for your sitting room or kitchen. Growbeds, Aquaium and LED lights incuded. Grow Medium and Plants not included",
       "price": 3150,
-      "category": 2,
+      "category": 1,
       "rating": 4.9,
       "image_url": "",
       "image": "Full system_opt.jpg"
@@ -105,7 +105,7 @@
       "name": "Courgette baby",
       "description": "Baby plant Courguette (3 units.), 2-3 weeks old, organic and reay to plant in your Aquaponics system.",
       "price": 2.9,
-      "category": 7,
+      "category": 6,
       "rating": 3.9,
       "image_url": "",
       "image": "Courgettebaby_opt.jpg"
@@ -119,7 +119,7 @@
       "name": "Fish tank/Aquarium 100x60x80",
       "description": "Fish tank/Aquarium 100x60x80 Templated Glass. For a mesium/size Aquaponics System..",
       "price": 260.1,
-      "category": 6,
+      "category": 7,
       "rating": 4.6,
       "image_url": "",
       "image": "Fish tank_opt.jpg"
@@ -133,7 +133,7 @@
       "name": "Fish Food",
       "description": "Organic Fish food 3Kg. Base on plants, insects and algae.",
       "price": 29.5,
-      "category": 4,
+      "category": 8,
       "rating": 4.6,
       "image_url": "",
       "image": "fish_opt.jpg"
@@ -161,7 +161,7 @@
       "name": "Power Supply 220v. EU",
       "description": "Power Supply for European Systems. LED Ligths power supply.",
       "price": 28.9,
-      "category": 7,
+      "category": 4,
       "rating": 3,
       "image_url": "",
       "image": "Ladder series led grow light bar_opt.jpg"
@@ -175,7 +175,7 @@
       "name": "LED Ligths Indoor Grow Lights.",
       "description": "Full spectrum LED Lights, 90 cm. bar. 24 LEDs. ",
       "price": 99.1,
-      "category": 6,
+      "category": 4,
       "rating": 4.6,
       "image_url": "",
       "image": "Ladder series led grow light bar-2_opt.jpg"
@@ -217,7 +217,7 @@
       "name": "PVC Elbow 16mm.",
       "description": "PVC Elbow, 16 mm. Contact us to ask for different sizes and types.",
       "price": 2.9,
-      "category": 7,
+      "category": 3,
       "rating": 3.9,
       "image_url": "",
       "image": "Lavarock_opt.jpg"
@@ -231,7 +231,7 @@
       "name": "NH4 Tester",
       "description": "NH4 Tester, Amonia Tester for your weekly check control.",
       "price": 24.1,
-      "category": 6,
+      "category": 4,
       "rating": 4.6,
       "image_url": "",
       "image": "NH4 Tester_opt.jpg"
@@ -259,7 +259,7 @@
       "name": "Diverse PVC tubes",
       "description": "PVC plumbing solutions for Aquaponics or Hydroponics Systems.",
       "price": 3.8,
-      "category": 2,
+      "category": 3,
       "rating": 4.9,
       "image_url": "",
       "image": "Plumbing_opt.jpg"
@@ -273,7 +273,7 @@
       "name": "Chikpea baby plants",
       "description": "Set of 5 Chikpea baby plants, ready for your system.",
       "price": 5.9,
-      "category": 7,
+      "category": 6,
       "rating": 3,
       "image_url": "",
       "image": "PVC Elbow_opt.jpg"
@@ -287,7 +287,7 @@
       "name": "Syphon Bell",
       "description": "PVC Syphon Bell for your Aquaponics system. Contact us to customize it.",
       "price": 35.6,
-      "category": 6,
+      "category": 3,
       "rating": 4.6,
       "image_url": "",
       "image": "PVC parts_opt.jpg"
@@ -301,7 +301,7 @@
       "name": "Seeding pots",
       "description": "Seeds starter single pots. 12 unts.",
       "price": 11.9,
-      "category": 4,
+      "category": 1,
       "rating": 4.6,
       "image_url": "",
       "image": "Seeding pots_opt.jpg"
@@ -315,7 +315,7 @@
       "name": "Zip Towers",
       "description": "Zip Towers for Aquaponics and Hydroponics Solutions. 1.80x20cm.",
       "price": 850,
-      "category": 2,
+      "category": 1,
       "rating": 4.9,
       "image_url": "",
       "image": "Ziptowers_opt.jpg"
@@ -329,7 +329,7 @@
       "name": "Small dark hydropebbles",
       "description": "Perfect grow media for indoor systems. 2Kg. Hydrpebbles dark and small grain.",
       "price": 21.9,
-      "category": 7,
+      "category": 2,
       "rating": 3.9,
       "image_url": "",
       "image": "Small hydropebbles_opt.jpg"
@@ -343,7 +343,7 @@
       "name": "Shiso seeds",
       "description": "Organic 100%. 180gr. Shiso seeds.",
       "price": 2.6,
-      "category": 6,
+      "category": 5,
       "rating": 4.6,
       "image_url": "",
       "image": "Shiso seeds_opt.jpg"
@@ -357,7 +357,7 @@
       "name": "Pansy seeds.",
       "description": "Edible Flowers, pansy seeds. 180gr. Organic 100%.",
       "price": 2.1,
-      "category": 4,
+      "category": 5,
       "rating": 4.6,
       "image_url": "",
       "image": "Seeds_opt.jpg"
@@ -371,7 +371,7 @@
       "name": "IBC 1000l.",
       "description": "Container 1000l. IBC, contact us to get our advise.",
       "price": 120.1,
-      "category": 4,
+      "category": 1,
       "rating": 4.6,
       "image_url": "",
       "image": "IBC_opt.jpg"
@@ -385,7 +385,7 @@
       "name": "Hydropebbles 2Kg.",
       "description": "Grow Medium hydrpebbles, big grane. 2Kg.",
       "price": 15.2,
-      "category": 4,
+      "category": 2,
       "rating": 4.6,
       "image_url": "",
       "image": "charts_opt.jpg"
