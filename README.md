@@ -179,7 +179,7 @@ Warning messages were used when user entered already taken username at registrat
 ## Deployment to Heroku
 
 Steps to deploy to Heroku:
-1.  Heroku .com click on New and Create new app.
+1.  Heroku.com click on New and Create new app.
 2.  Named as: Aquaponics-shop. Region selected: Europe.
 3.  In Resources tab, search and add Heroku Postgres. Select Hobby Dev (free)and click Provision.
 4.  In Settings click on Reveal Config Vars and copied the value of DATABASE_URL in Gitpot setting.
