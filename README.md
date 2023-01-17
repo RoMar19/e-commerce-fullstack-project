@@ -2,7 +2,7 @@
 
 This is my __Full Stack Project with Django Frameworks__. It is a webshop for Aquaponics products to build your own system.
 Last project to finish Full Stack Web Developer Code Institute course. 
-Live Demo: [https://aquaponics-shop.herokuapp.com/]
+Live Demo: [https://e-commerce-yeln.onrender.com/]
 
 ## Purpose
 The purpose of the project is to build a full-stack site based around business logic used to control a centrally owned database.
